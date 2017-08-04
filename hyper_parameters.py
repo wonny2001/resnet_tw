@@ -2,7 +2,7 @@
 # Github: https://github.com/wenxinxu/resnet_in_tensorflow
 # ==============================================================================
 import tensorflow as tf
-
+#hyper tw
 FLAGS = tf.app.flags.FLAGS
 
 ## The following flags are related to save paths, tensorboard outputs and screen outputs
