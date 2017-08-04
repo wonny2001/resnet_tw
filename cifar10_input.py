@@ -14,7 +14,7 @@ full_data_dir = 'cifar10_data/cifar-10-batches-py/data_batch_'
 vali_dir = 'cifar10_data/cifar-10-batches-py/test_batch'
 DATA_URL = 'http://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz'
 
-
+# CONSTANT
 IMG_WIDTH = 32
 IMG_HEIGHT = 32
 IMG_DEPTH = 3
