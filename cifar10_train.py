@@ -421,8 +421,9 @@ maybe_download_and_extract()
 # Initialize the Train object
 train = Train()
 # Start the training session
-train.train()
-
+# train.train()
+test_image_array, test_label = read_validation_data() # Better to be whitened in advance. Shape = [-1, img_height, img_width, img_depth]
+top1_error, loss = train.test(test_image_array)
 
 
 
